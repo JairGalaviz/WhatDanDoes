@@ -1,0 +1,27 @@
+<article>
+  <header>
+    <h2>
+      <a href="<%- config.root %><%- item.path %>">
+        <%- item.title %>
+      </a>
+    </h2>
+    <%- partial('article-tags', {item: item}) %>
+    <p class="blog-post-meta">
+      <%= item.date.format(config.date_format) %>
+    </p>
+  </header>
+  <!-- Content -->
+  <section>
+    <%- item.excerpt || item.content %>
+  </section>
+  <!-- Only display the Read More link if we are displaying an excerpt -->
+  <% if (item.excerpt) { %>
+  <section class="blog-post-footer">
+    <p>
+      <a href="<%- config.root %><%- item.path %>">
+        <%= theme.excerpt_link %>
+      </a>
+    </p>
+  </section>
+  <% } %>
+</article>

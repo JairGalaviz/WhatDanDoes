@@ -1,0 +1,68 @@
+/*
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    border-top: 2px solid black;
+    background-color: lightsalmon;
+*/
+
+#mc_embed_signup {
+  clear: left;
+
+  width: 100%;
+<<<<<<< HEAD
+  border: 1px solid black;
+  border-radius: 2rem;
+=======
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+>>>>>>> 82de4e6ff9cfbe77bb6e5fb0ab3eb0a128e7ab89
+  background-color: #fffad8;
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+#mc_embed_signup h2 {
+  font-size: 1.3rem;
+  color: black;
+}
+
+#mc_embed_signup .clear {
+  margin-top: 1em;
+}
+
+#mc_embed_signup .clear input {
+  font-size: 1em;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+}
+
+#mc_embed_signup .clear input:hover {
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+}
+
+#mc_embed_signup .mc-field-group input {
+  border: 1px solid black;
+}
+
+@media only screen and (min-width: 48em) {
+  #mc_embed_signup {
+    font-size: 1.125rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    width: 60%;
+  }
+}
+  @media all and (max-width: 767px){
+    #mc_embed_signup {
+      border-radius: 0;
+  }
+  main article{
+    border-radius: 0;
+  }
+
+}

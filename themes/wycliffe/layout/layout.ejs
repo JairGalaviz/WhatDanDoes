@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<%- partial('_partial/head') %>
+<body>
+  <%- partial('_partial/header') %>
+  <main>
+    <!-- Main Content -->
+    <%- body %>
+    <!-- Sidebar -->
+    <% if (!page.nosidebar) { %>
+      <%- partial('_partial/sidebar') %>
+    <% } %>
+  </main>
+  <%- partial('_partial/mailchimp-signup') %>
+  <%- partial('_partial/footer') %>
+  <%- partial('_partial/after-footer') %>
+</body>
+</html>

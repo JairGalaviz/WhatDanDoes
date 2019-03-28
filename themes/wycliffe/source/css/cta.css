@@ -1,0 +1,65 @@
+
+#patronbutton{
+  margin: 1rem 25% auto;
+  padding: 2rem;
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  line-height: 3em;
+  align-items: center;
+  font-size: 1.5rem;
+
+  margin-top: 2rem;
+}
+
+.cta .btn {
+  background: #ffaa00;
+<<<<<<< HEAD
+  margin: 1rem auto;
+  border: 3px solid black;
+  font-weight: 100;
+=======
+  margin: auto;
+  color: black;
+  border: 3px solid black;
+  font-weight: 100;
+  font-size: 1.75rem;
+>>>>>>> 82de4e6ff9cfbe77bb6e5fb0ab3eb0a128e7ab89
+  border-radius: .5rem;
+  color: black;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.cta .btn:hover {
+  background: 0;
+  transition: .3s;
+  border-color: orange; 
+  font-weight: 100;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+}
+
+.cta a {
+  color: white;
+  text-decoration: none; 
+}
+
+header + .cta {
+  margin: .25em auto 0 auto;
+}
+
+@media only screen and (min-width: 40em) {
+  .cta {
+    padding: 1em;
+  }
+
+  .cta .btn {
+    width: 50%;
+  }
+}

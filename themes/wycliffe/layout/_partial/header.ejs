@@ -1,0 +1,11 @@
+<header>
+  <% if (page.hero) { %>
+    <%- partial('_partial/menu') %>
+    <%- partial('_partial/hero') %>
+  <% } else { %>
+    <%- partial('_partial/menu') %>
+  <% } %>
+</header>
+<% if (!page.nocta && !page.hero) { %>
+  <%- partial('_partial/cta-button') %>
+<% } %>

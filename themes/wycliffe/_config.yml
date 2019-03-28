@@ -1,0 +1,15 @@
+# Header
+menu:
+#  Archives: /archives
+  Partner: /partner
+  Blog: /blog
+  About: /about
+  Home: /
+
+# Read More text
+excerpt_link: Read more...
+
+# Widgets List
+widgets:
+  about: My name is Daniel Bidulock. I am a computer programmer and Wycliffe Bible Translator. I cultivate biblical and computer literacy around the world.
+  tags: true

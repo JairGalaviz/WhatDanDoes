@@ -1,0 +1,17 @@
+<article>
+  <!-- Title -->
+  <header>
+    <h2>
+      <a href="<%- config.root %><%- item.path %>">
+        <%- item.title || item.link%>
+      </a>
+    </h2>
+    <!-- Date and Author -->
+    <p>
+      <%= item.date.format(config.date_format) %>
+      <% if(item.author) { %>
+          by <%- item.author %>
+      <% } %>
+    </p>
+  </header>
+</article>
