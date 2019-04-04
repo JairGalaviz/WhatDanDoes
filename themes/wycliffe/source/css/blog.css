@@ -14,7 +14,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   color: rgba(0,0,0,.75);
   font-size: 1.1rem;
-  background-color: red;
+  background-color: #efefef;
 }
 
 a {
@@ -128,7 +128,9 @@ video,
   margin-top: 1em;
   margin-bottom: 1em;
 }
-
+#socialicons{
+  float: left;
+}
 
 
 @media only screen and (min-width: 48em) {

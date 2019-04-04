@@ -10,13 +10,8 @@
   clear: left;
 
   width: 100%;
-<<<<<<< HEAD
-  border: 1px solid black;
-  border-radius: 2rem;
-=======
   border-top: 2px solid black;
   border-bottom: 2px solid black;
->>>>>>> 82de4e6ff9cfbe77bb6e5fb0ab3eb0a128e7ab89
   background-color: #fffad8;
   padding: 1em;
   font-size: 1.5em;

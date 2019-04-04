@@ -18,17 +18,11 @@
 
 .cta .btn {
   background: #ffaa00;
-<<<<<<< HEAD
-  margin: 1rem auto;
-  border: 3px solid black;
-  font-weight: 100;
-=======
   margin: auto;
   color: black;
   border: 3px solid black;
   font-weight: 100;
   font-size: 1.75rem;
->>>>>>> 82de4e6ff9cfbe77bb6e5fb0ab3eb0a128e7ab89
   border-radius: .5rem;
   color: black;
   font-size: 2rem;
